@@ -1,0 +1,51 @@
+# Build outputs
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio cache / settings
+.vs/
+.idea/
+*.csproj.user
+
+# dotnet local tools / global.json
+.dotnet/
+.tools/
+
+# Publishing
+publish/
+
+# MAUI specific
+**/Resources/System/**   # если используете системные ресурсы — не нужно в гите
+*.maui.stub
+
+# Others
+*.log
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Rider / VS Code
+.idea/
+.vscode/
+_ReSharper.Caches/
+*.DotSettings.user
+
+# OS junk
+.DS_Store
+Thumbs.db
